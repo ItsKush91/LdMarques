@@ -1,0 +1,39 @@
+/*--------------------------------------------------*/
+/*-------- Kushal Lamichhane & Alex Borda ----------*/
+/*---------------------DAM-1B-----------------------*/
+/*--------------------------------------------------*/
+
+
+/*1. color general de la lletra negra*/
+body{
+    color: black;
+}
+
+/*2. titol nivell 1 fons blanc lletra gris*/
+#titol-pagina{
+    color: grey;
+    background-color: white;
+}
+
+/*3. tots els strong en color verd i subratllats*/
+.paragraf2 strong,.paragraf1 strong{
+    color: green !important;
+    text-decoration: underline;
+
+}
+
+/*4. enllaços del paràgraf2 en italica*/
+.paragraf2>a{
+     font-style: italic;
+}
+
+/*5. footer general del web centrat i lletra de 10px*/
+div>footer{
+    text-align: center;
+    font-size: 10px;
+}
+
+/*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
+
+/* Hemos sido mas precisos en nuestros metodos que en el archivo inicial y por eso no se modifica. Para que tenga las caracteristicas del fichero inicial deberiamos usar el !important en el fichero "estils_inicials"
+ */
