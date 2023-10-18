@@ -6,37 +6,43 @@
     <title>Document</title>
 </head>
 <body>
+    <h2>Formulario para adoptar mascotas</h2>
     <div>
         <form>
+            <!--entrada text curt-->
             <label for="name">Name and Surname</label>
             <input type="text" id="name">
             <br><br>
-
+            <!--entrada email-->
             <label for="email">Email Address</label>
             <input type="email" id="email">
             <br><br>
-
+            <!--Entrada numerica-->
             <label for="number">Phone number</label>
             <input type="tel" minlength="9" maxlength="9" id="number">
             <br><br>
-            <div>
-                <label for="gender">Select your gender:</label><br>
-                <label for="male">Male</label>
-                <input type="radio" id="male" name="gender"><br>
-                <label for="female">Female</label>
-                <input type="radio" id="female" name="gender"><br>
-                <label for="other">Others</label>
-                <input type="radio" id="other" name="gender"><br>
-            </div>
 
-            <label for="course">Course</label>
-            <select id="course">
+            <!--Radio buttons-->
+            <div>
+                <p>Cuantas mascotas has tenido a tu cargo?</p>
+                <label for="uno" > 1 </label>
+                <input type="radio" id="uno" name="mascota"><br>
+                <label for="dos"> 2 </label>
+                <input type="radio" id="dos" name="mascota"><br>
+                <label for="mas"> 3+ </label>
+                <input type="radio" id="mas" name="mascota"><br>
+            </div><br>
+
+            <label for="course">Mascota que quiere adoptar</label>
+            <select id="course" >
             <datalist id="course">
-                <option>DAM 1A</option>
-                <option>DAM 1B</option>
-                <option>DAM 2A</option>
-                <option>DAM 2B</option>
+                <option>Perro</option>
+                <option>Gato</option>
             </datalist>
+
+
+
+            
         </form>
     </div>
 </body>
