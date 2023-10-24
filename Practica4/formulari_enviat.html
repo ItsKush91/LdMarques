@@ -11,10 +11,24 @@
             font-style: oblique;
             font-family: sans-serif;
         }
+
+        #btn{
+            background-color: brown;
+            height: 50px;
+            width: 200px;
+            margin: auto;
+        }
+
+        #btn:hover{
+            background-color: blueviolet;
+            transition: .5s;
+        }
+        
     </style>
 </head>
 <body>
     <h2>El formulari s'ha enviat correctament.</h2>
+    <input type="submit" id="btn" onclick="window.location.href = 'formulari.html'" value="Volver al formulario" </input>
     
 </body>
 </html>
