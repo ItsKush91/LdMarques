@@ -31,15 +31,29 @@ form{
 
 .right{
     float: right;
-    padding-right: 30%;
+    width: 300px;
+}
+
+#number{
+    width: 100px;
 }
 
 .text{
     font-size: 20px;
     font-family: 'Kurale', serif;
     font-style: oblique;
+}
 
+#btn{
+    background-color: brown;
+    height: 50px;
+    width: 100px;
+    margin: auto;
+}
 
+#btn:hover{
+    background-color: blueviolet;
+    transition: .5s;
 }
 
 textarea {
