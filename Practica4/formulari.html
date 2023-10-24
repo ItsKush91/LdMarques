@@ -1,45 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Formulario para adoptar mascotas</h2>
+    
     <div>
-        <form>
+        <h2>Formulario para adoptar mascotas</h2><br>
+        <form action="formulari_enviat.html">
+            
             <!--entrada text curt-->
-            <label for="name">Name and Surname</label>
-            <input type="text" id="name">
+            <label for="name" class="text">Nombre y Apellido</label>
+            <input type="text" id="name" class="right" required>
             <br><br>
             <!--entrada email-->
-            <label for="email">Email Address</label>
-            <input type="email" id="email">
+            <label for="email" class="text">Email</label>
+            <input type="email" id="email" class="right" required>
             <br><br>
             <!--Entrada numerica-->
-            <label for="number">Phone number</label>
-            <input type="tel" minlength="9" maxlength="9" id="number">
+            <label for="number" class="text">Numero</label>
+            <input type="tel" minlength="9" maxlength="9" id="number" class="right" required>
             <br><br>
 
             <!--Radio buttons-->
             <div>
-                <p>Cuantas mascotas has tenido a tu cargo?</p>
+                <p class="text">Cuantas mascotas has tenido a tu cargo?</p>
+                <label for="zero" > 0 </label>
+                <input type="radio" id="zero" name="mascota" required checked><br>
                 <label for="uno" > 1 </label>
-                <input type="radio" id="uno" name="mascota"><br>
+                <input type="radio" id="uno" name="mascota" required><br>
                 <label for="dos"> 2 </label>
-                <input type="radio" id="dos" name="mascota"><br>
+                <input type="radio" id="dos" name="mascota" required><br>
                 <label for="mas"> 3+ </label>
-                <input type="radio" id="mas" name="mascota"><br>
+                <input type="radio" id="mas" name="mascota" required><br>
             </div><br>
 
-            <label for="course">Mascota que quiere adoptar</label>
-            <select id="course" >
-            <datalist id="course">
-                <option>Perro</option>
-                <option>Gato</option>
-            </datalist>
+            <!----dropdown options-->
+            <div>
+            <label for="pet" class="text">Mascota que quiere adoptar</label>
+                <select id="pet" required>
+                    <datalist id="pet">
+                        <option>Perro</option>
+                        <option>Gato</option>
+                    </datalist>
+                </select>  
+            </div><br>
+            <textarea placeholder="Porque quiere adoptar la mascota" required></textarea><br>
+            <!----Checkbox---->
+            <div>
+                <label for="Terms" class="text">Acepto los terminos y condiciones</label>
+                <input type="checkbox" id="terms" name="checkbox" required><br><br>
+                <label for="edat" class="text">Confirmo que tengo 16+ años</label>
+                <input type="checkbox" id="edat" name="checkbox" required><br><br>
+                <label for="ads" class="text">Quiero recibir noticias y novedades al correro.</label>
+                <input type="checkbox" id="ads" name="checkbox" checked required><br><br>
 
+            </div>
+            <input type="submit" id="enviar" value="Enviar" style="align-items: center;">
 
 
             

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://img.freepik.com/premium-vector/animal-paws-seamless-pattern_834270-10.jpg?w=2000);
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 35px;
+}
+
+form{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(93, 122, 97);
+    width: 40%;
+    height: 70%;
+    color: rgb(0, 0, 0);
+}
+
+.right{
+    float: right;
+    padding-right: 30%;
+}
+
+.text{
+    font-size: 20px;
+    font-family: 'Kurale', serif;
+    font-style: oblique;
+
+
+}
+
+textarea {
+    display: block;
+    height: 100px;
+    width: 100%;
+    resize: none;
+    
+}
