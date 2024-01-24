@@ -1,0 +1,86 @@
+{
+    "pokemons":[
+        {
+            "id":"bulb1",
+            "Image":"https://static.wikia.nocookie.net/espokemon/images/4/43/Bulbasaur.png/revision/latest?cb=20170120032346",
+            "Nombre":"Bulbasour",
+            "Generación":"Primera",
+            "Tipo":["Planta", "Veneno"],
+            "Hablilidad":"Espesura",
+            "Hab. Oculta": "Clorofila",
+            "Peso": 6.9,
+            "Altura": 0.7 ,
+            "Grupo de Huevo": "Monstruo Planta",
+            "Sexo":{
+                "Masculino":"87.5%",
+                "Femenino": "12.5%"
+            },
+            "Color":"Verde",
+            "Estadisticas":{
+                "Velocidad": 3,
+                "Fortaleza": 3,
+                "Precisión": 4,
+                "Resistencia": 4,
+                "Salto": 3,
+                "Total": 17,
+                "Media": 3.4
+            }
+
+        },
+        {
+            "id":"chari1",
+            "Image":"https://static.wikia.nocookie.net/espokemon/images/9/95/Charizard.png/revision/latest?cb=20180325003352",
+            "Nombre":"Charizard",
+            "Generación":"Primera",
+            "Tipo":["Fuego", "Volador"],
+            "Hablilidad":"Mar llamas",
+            "Hab. Oculta": "Poder Solar",
+            "Peso": "90.5 kg",
+            "Altura": "1.7 m" ,
+            "Grupo de Huevo": "Monstruo Dragon",
+            "Sexo":{
+                "Masculino":"87.5%",
+                "Femenino": "12.5%"
+            },
+            "Color":["Rojo","Negro"],
+            "Estadisticas":{
+                "Velocidad": 3,
+                "Fortaleza": 3,
+                "Precisión": 2,
+                "Resistencia": 5,
+                "Salto": 5,
+                "Total": 18,
+                "Media": 3.6
+            }
+
+        },
+        {
+            "id":"Snor1",
+            "Image":"https://static.wikia.nocookie.net/espokemon/images/0/0b/Snorlax.png/revision/latest?cb=20160904204605",
+            "Nombre":"Snorlax",
+            "Categoria":"Dormir",
+            "Generación":"Primera",
+            "Tipo":"Normal",
+            "Hablilidad":"Sebo Inmunidad",
+            "Hab. Oculta": "Gula",
+            "Peso": "460 kg",
+            "Altura": "2.1 m" ,
+            "Grupo de Huevo": "Monstruo",
+            "Sexo":{
+                "Masculino":"87.5%",
+                "Femenino": "12.5%"
+            },
+            "Color":"Negro",
+            "Estadisticas":{
+                "Velocidad": 2,
+                "Fortaleza": 5,
+                "Precisión": 3,
+                "Resistencia": 5,
+                "Salto": 2,
+                "Total": 17,
+                "Media": 3.4
+            }
+
+        }
+    ]
+}
