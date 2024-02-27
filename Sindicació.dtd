@@ -1,0 +1,16 @@
+<!ELEMENT rss (channel)>
+
+<!ELEMENT channel (title, link, description, LastBuildDate, docs, generator,copyright, item+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT LastBuildDate (#PCDATA)>
+<!ELEMENT docs (#PCDATA)>
+<!ELEMENT generator (#PCDATA)>
+<!ELEMENT copyright (#PCDATA)>
+
+<!ELEMENT item (title, link, guid, pubDate, description)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT guid (#PCDATA)>
+<!ELEMENT pubDate (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
